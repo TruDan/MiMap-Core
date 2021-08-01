@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6C20D76-63C6-467A-802D-B3FCF831FE49}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+	src\Directory.Build.targets = src\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{44ADA1E2-7321-4A6C-881D-EB80711B19D3}"
+ProjectSection(SolutionItems) = preProject
+	src\Core\Directory.Build.props = src\Core\Directory.Build.props
+	src\Core\Directory.Build.targets = src\Core\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{69467AF8-56EE-43D0-9668-41DBCB72F65F}"
+ProjectSection(SolutionItems) = preProject
+	src\Plugin\Directory.Build.props = src\Plugin\Directory.Build.props
+	src\Plugin\Directory.Build.targets = src\Plugin\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{220DBDFE-84F3-4674-8EFA-6D74F6E34631}"
+ProjectSection(SolutionItems) = preProject
+	src\Web\Directory.Build.props = src\Web\Directory.Build.props
+	src\Web\Directory.Build.targets = src\Web\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Widgets", "Widgets", "{568CD622-4CE9-42C6-9515-C2969CBE0B01}"
+ProjectSection(SolutionItems) = preProject
+	src\Widgets\Directory.Build.props = src\Widgets\Directory.Build.props
+	src\Widgets\Directory.Build.targets = src\Widgets\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{951C0586-9A02-4EED-975B-2685BC371911}"
+ProjectSection(SolutionItems) = preProject
+	test\Directory.Build.props = test\Directory.Build.props
+	test\Directory.Build.targets = test\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Server", "test\MiMap.Server\MiMap.Server.csproj", "{9E0245D8-06BA-49DF-B06E-A98A16965B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Web", "src\Web\MiMap.Web\MiMap.Web.csproj", "{4BB7143F-7F04-4A16-85E2-7C54CD379CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Anvil", "src\Plugin\MiMap.Anvil\MiMap.Anvil.csproj", "{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Plugin", "src\Plugin\MiMap.Plugin\MiMap.Plugin.csproj", "{A06D482D-67F0-4064-B5A2-A1A796C10321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Core", "src\Core\MiMap.Core\MiMap.Core.csproj", "{877C903E-BA35-4F40-982A-4A49A7147F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Drawing", "src\Core\MiMap.Drawing\MiMap.Drawing.csproj", "{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.ResourcePackLib", "src\Core\MiMap.ResourcePackLib\MiMap.ResourcePackLib.csproj", "{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiMap.Widgets.Performance", "src\Widgets\MiMap.Widgets.Performance\MiMap.Widgets.Performance.csproj", "{36F70A34-C941-4058-A483-B0BD2EB1AE6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{5A422C87-7A4C-4034-97C1-6639EE080779}"
+ProjectSection(SolutionItems) = preProject
+	Directory.Build.props = Directory.Build.props
+	Directory.Build.targets = Directory.Build.targets
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44ADA1E2-7321-4A6C-881D-EB80711B19D3} = {E6C20D76-63C6-467A-802D-B3FCF831FE49}
+		{69467AF8-56EE-43D0-9668-41DBCB72F65F} = {E6C20D76-63C6-467A-802D-B3FCF831FE49}
+		{220DBDFE-84F3-4674-8EFA-6D74F6E34631} = {E6C20D76-63C6-467A-802D-B3FCF831FE49}
+		{568CD622-4CE9-42C6-9515-C2969CBE0B01} = {E6C20D76-63C6-467A-802D-B3FCF831FE49}
+		{9E0245D8-06BA-49DF-B06E-A98A16965B18} = {951C0586-9A02-4EED-975B-2685BC371911}
+		{4BB7143F-7F04-4A16-85E2-7C54CD379CC7} = {220DBDFE-84F3-4674-8EFA-6D74F6E34631}
+		{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1} = {69467AF8-56EE-43D0-9668-41DBCB72F65F}
+		{A06D482D-67F0-4064-B5A2-A1A796C10321} = {69467AF8-56EE-43D0-9668-41DBCB72F65F}
+		{877C903E-BA35-4F40-982A-4A49A7147F31} = {44ADA1E2-7321-4A6C-881D-EB80711B19D3}
+		{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA} = {44ADA1E2-7321-4A6C-881D-EB80711B19D3}
+		{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F} = {44ADA1E2-7321-4A6C-881D-EB80711B19D3}
+		{36F70A34-C941-4058-A483-B0BD2EB1AE6D} = {568CD622-4CE9-42C6-9515-C2969CBE0B01}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E0245D8-06BA-49DF-B06E-A98A16965B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0245D8-06BA-49DF-B06E-A98A16965B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0245D8-06BA-49DF-B06E-A98A16965B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0245D8-06BA-49DF-B06E-A98A16965B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB7143F-7F04-4A16-85E2-7C54CD379CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB7143F-7F04-4A16-85E2-7C54CD379CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB7143F-7F04-4A16-85E2-7C54CD379CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB7143F-7F04-4A16-85E2-7C54CD379CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AE4472-09F2-4E4A-986B-8CAF70B4A4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06D482D-67F0-4064-B5A2-A1A796C10321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06D482D-67F0-4064-B5A2-A1A796C10321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06D482D-67F0-4064-B5A2-A1A796C10321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06D482D-67F0-4064-B5A2-A1A796C10321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877C903E-BA35-4F40-982A-4A49A7147F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877C903E-BA35-4F40-982A-4A49A7147F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877C903E-BA35-4F40-982A-4A49A7147F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877C903E-BA35-4F40-982A-4A49A7147F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9199ED-B41B-4558-BFC1-91FE9A3CF6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349CCBD-05DF-4B33-B61B-4D2AA9FE787F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F70A34-C941-4058-A483-B0BD2EB1AE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F70A34-C941-4058-A483-B0BD2EB1AE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F70A34-C941-4058-A483-B0BD2EB1AE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F70A34-C941-4058-A483-B0BD2EB1AE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

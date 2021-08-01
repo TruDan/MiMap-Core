@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MiMap.Core\MiMap.Core.csproj" />
+    <ProjectReference Include="..\..\Core\MiMap.Drawing\MiMap.Drawing.csproj" />
+    <ProjectReference Include="..\..\Web\MiMap.Web\MiMap.Web.csproj" />
+    <ProjectReference Include="..\..\Widgets\MiMap.Widgets.Performance\MiMap.Widgets.Performance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiNET" Version="1.0.2270" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,65 @@
+﻿{
+  "SaveInterval": 500,
+  "WebServer": {
+    "Enabled": true,
+    "Widgets": [
+      {
+        "Type": "Performance",
+        "Position": "TopRight",
+        "AllowedPositions": null,
+        "Moveable": true,
+        "Collapsible": true,
+        "IsCollapsed": false
+      }
+    ]
+  },
+  "Levels": [
+    {
+      "LevelId": "Overworld",
+      "Label": "Winterfell",
+      "Enabled": true,
+      "DefaultZoom": 2,
+      "MinZoom": 1,
+      "MaxZoom": 5,
+      "TileSize": 256,
+      "Renderer": {
+        "Type": "Default",
+        "PostProcessors": [
+          "HeightShadow",
+          "Lighting"
+        ]
+      },
+      "Layers": [
+        {
+          "LayerId": "biome",
+          "Label": "Biomes",
+          "Default": true,
+          "Renderer": {
+            "Type": "biome"
+          }
+        },
+        {
+          "LayerId": "heightmap",
+          "Label": "Height Map",
+          "Default": true,
+          "Renderer": {
+            "Type": "HeightMap"            
+          }
+        },
+        {
+          "LayerId": "fancy",
+          "Label": "Sphax x16",
+          "Default": true,
+          "Renderer": {
+            "Type": "Texture",
+            "PostProcessors": [
+              "HeightShadow",
+              "Lighting"
+            ],
+            "ResourcePack": "MiMap/Sphax_16.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

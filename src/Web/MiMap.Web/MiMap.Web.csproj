@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.Net.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\Directory.Build.props">
+      <Link>Directory.Build.props</Link>
+    </Content>
+    <Content Include="..\..\Directory.Build.targets">
+      <Link>Directory.Build.targets</Link>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MiMap.Core\MiMap.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fleck" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="WebSocketProxy" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Middleware" />
+    <Folder Include="Properties" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Content/**/*" />
+    <EmbeddedResource Include="Content/**/*" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Content/Styles/mimap.css",
+    "inputFile": "Content/Styles/mimap.scss"
+  },
+  {
+    "outputFile": "Content/Styles/mimap-ui.css",
+    "inputFile": "Content/Styles/mimap-ui.less"
+  }
+]

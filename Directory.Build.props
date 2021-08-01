@@ -1,0 +1,13 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+<PropertyGroup>
+  <SolutionDirectory Condition="'$(SolutionDirectory)' == ''">$(MSBuildThisFileDirectory)</SolutionDirectory>
+  <OutDir>$(SolutionDirectory)\output\$(Configuration)\$(TargetFramework)\$(MSBuildProjectName)</OutDir>
+</PropertyGroup>
+
+</Project>

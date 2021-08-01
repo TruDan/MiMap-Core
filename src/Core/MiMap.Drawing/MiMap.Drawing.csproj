@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiMap.Core\MiMap.Core.csproj" />
+    <ProjectReference Include="..\MiMap.ResourcePackLib\MiMap.ResourcePackLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiNET" Version="1.0.2270" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
